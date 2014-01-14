@@ -11,6 +11,14 @@
     "type": "git",
     "url": "git://github.com/aranasoft/lineman-coffeelint.git"
   },
+  "main": "main.js",
+  "dependencies": {
+    "grunt-coffeelint": "0.0.8",
+    "coffee-script": "~1.6.3"
+  },
+  "peerDependencies": {
+    "lineman": ">= 0.19.0"
+  },
   "licenses": [
     {
       "type": "BSD",
