@@ -1,0 +1,20 @@
+{
+  "name": "lineman-coffeelint",
+  "title": "CoffeeLint plugin for Lineman, using grunt-coffeelint",
+  "version": "0.1.0",
+  "homepage": "https://github.com/aranasoft/lineman-coffeelint",
+  "author": "Arana Software <info@aranasoft.com> (http://www.aranasoft.com)",
+  "contributors": [
+    "Jay Harris <jay@aranasoft.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aranasoft/lineman-coffeelint.git"
+  },
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "http://github.com/aranasoft/lineman-coffeelint/raw/master/LICENSE-BSD"
+    }
+  ]
+}
