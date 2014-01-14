@@ -1,6 +1,12 @@
 {
   "name": "lineman-coffeelint",
   "title": "CoffeeLint plugin for Lineman, using grunt-coffeelint",
+  "description": "Provide CoffeeLint functionality to your Lineman application.",
+  "keywords": [
+    "lineman",
+    "grunt",
+    "coffeelint"
+  ],
   "version": "0.1.0",
   "homepage": "https://github.com/aranasoft/lineman-coffeelint",
   "author": "Arana Software <info@aranasoft.com> (http://www.aranasoft.com)",
@@ -11,8 +17,11 @@
     "type": "git",
     "url": "git://github.com/aranasoft/lineman-coffeelint.git"
   },
+  "bugs": {
+    "url": "https://github.com/aranasoft/lineman-coffeelint/issues"
+  },
   "main": "main.js",
-  "dependencies": {
+  "devDependencies": {
     "grunt-coffeelint": "0.0.8",
     "coffee-script": "~1.6.3"
   },
