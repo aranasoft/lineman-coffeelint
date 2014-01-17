@@ -6,6 +6,9 @@ module.exports = (lineman) ->
       common: lineman.config.application.prependTasks.common.concat('coffeelint')
 
     coffeelint:
-      app: [
-        lineman.config.files.coffee.app
-      ]
+      app: ["<%= files.coffee.app %>", "<%= files.coffee.spec %>"]
+
+    watch:
+      coffeelint:
+        files: ["<%= files.coffee.app %>", "<%= files.coffee.spec %>"]
+        tasks: ["coffeelint"]
