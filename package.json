@@ -22,7 +22,7 @@
   },
   "main": "main.js",
   "dependencies": {
-    "grunt-coffeelint": "~0.0.8",
+    "grunt-coffeelint": "~0.0.8"
   },
   "devDependencies": {
     "coffee-script": "~1.6.3"
