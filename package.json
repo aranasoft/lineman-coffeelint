@@ -21,8 +21,10 @@
     "url": "https://github.com/aranasoft/lineman-coffeelint/issues"
   },
   "main": "main.js",
+  "dependencies": {
+    "grunt-coffeelint": "~0.0.8",
+  },
   "devDependencies": {
-    "grunt-coffeelint": "0.0.x",
     "coffee-script": "~1.6.3"
   },
   "peerDependencies": {
